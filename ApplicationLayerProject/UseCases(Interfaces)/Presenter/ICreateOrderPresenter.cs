@@ -2,6 +2,6 @@
 {
     public interface ICreateOrderPresenter : ICreateOrderOutputPort
     {
-        int OrderId { get; set; }
+        int OrderId { get; }
     }
 }
