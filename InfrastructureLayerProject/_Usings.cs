@@ -2,3 +2,5 @@
 global using ApplicationLayerProject.DTOs.CreateOrder;
 global using ApplicationLayerProject.Ports.UseCases.CreateOrder;
 global using ApplicationLayerProject.UseCases_Interfaces_.Repositories;
+global using InfrastructureLayerProject.Interactors;
+global using Microsoft.Extensions.DependencyInjection;
