@@ -5,12 +5,5 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-	
-	<ItemGroup>
-		<Folder Include="Repositories\" />
-	</ItemGroup>
-	
-	<ItemGroup>
-	  <ProjectReference Include="..\ApplicationLayerProject\ApplicationLayerProject.csproj" />
-	</ItemGroup>
+
 </Project>

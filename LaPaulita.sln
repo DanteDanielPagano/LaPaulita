@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationLayerProject", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfrastructureLayerProject", "InfrastructureLayerProject\InfrastructureLayerProject.csproj", "{5039E7ED-26F6-4638-9115-359E5CB1ED43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AplicationLayerUseCaseProject", "AplicationLayerUseCaseProject\AplicationLayerUseCaseProject.csproj", "{261FA620-2990-4923-9E8D-F694B883FDA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5039E7ED-26F6-4638-9115-359E5CB1ED43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5039E7ED-26F6-4638-9115-359E5CB1ED43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5039E7ED-26F6-4638-9115-359E5CB1ED43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{261FA620-2990-4923-9E8D-F694B883FDA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{261FA620-2990-4923-9E8D-F694B883FDA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{261FA620-2990-4923-9E8D-F694B883FDA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{261FA620-2990-4923-9E8D-F694B883FDA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

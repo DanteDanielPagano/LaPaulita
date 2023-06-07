@@ -1,4 +1,4 @@
-﻿namespace InfrastructureLayerProject
+﻿namespace AplicationLayerUseCaseProject
 {
     public static class DependencyContainer
     {

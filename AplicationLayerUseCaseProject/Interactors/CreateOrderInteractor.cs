@@ -1,4 +1,4 @@
-﻿namespace InfrastructureLayerProject.Interactors
+﻿namespace AplicationLayerUseCaseProject.Interactors
 {
     public class CreateOrderInteractor : ICreateOrderInputPort
     {
