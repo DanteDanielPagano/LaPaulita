@@ -1,4 +1,9 @@
-﻿namespace AplicationLayerUseCaseProject.Interactors
+﻿using ApplicationLayerProject.Aggregates;
+using ApplicationLayerProject.DTOs.CreateOrder;
+using ApplicationLayerProject.Ports.UseCases.CreateOrder;
+using ApplicationLayerProject.UseCases_Interfaces_.Repositories;
+
+namespace AplicationLayerUseCaseProject.Interactors
 {
     public class CreateOrderInteractor : ICreateOrderInputPort
     {
