@@ -1,6 +1,6 @@
 ﻿namespace DomainLayerProject.Entities.Common
 {
-    public class EntitiCommon
+    public class EntityCommon
     {
         public int Id { get; set; }
         public int CreatedBy { get; set; }
