@@ -5,7 +5,7 @@
         public bool IsValid { get; set; }
         public List<string> Errors { get; set; }
 
-        public ValidationResult()
+        public ValidationResult() //constructor
         {
             Errors = new List<string>();
         }

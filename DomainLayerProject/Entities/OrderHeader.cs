@@ -24,7 +24,8 @@ namespace DomainLayerProject.Entities
             var specifications = new List<ISpecification<OrderHeader>>
         {
             new AddressLengthSpecification(),
-            new ZipLengthSpecification()
+            new ZipLengthSpecification(),
+            new CityRequiredSpecification()
         };
 
             foreach (var specification in specifications)

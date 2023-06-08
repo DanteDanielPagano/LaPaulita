@@ -6,6 +6,17 @@
 
         public bool IsSatisfiedBy(OrderHeader entity)
         {
+            //bool response;
+            //if(entity.ShippingAddress.Length <= 50)
+            //{
+            //    response = true;
+            //}
+            //else
+            //{
+            //    response = false;
+            //}
+
+            //return response;
             return entity.ShippingAddress.Length <= 50;
         }
     }
