@@ -1,7 +1,4 @@
 ﻿
-using DomainLayerProject.Specifications.OrderHeaderSpecifications;
-using DomainLayerProject.Validatiors;
-
 namespace DomainLayerProject.Entities
 {
     public class OrderHeader : EntityCommon
@@ -23,17 +20,22 @@ namespace DomainLayerProject.Entities
 
             var specifications = new List<ISpecification<OrderHeader>>
         {
-            new AddressLengthSpecification(),
-            new ZipLengthSpecification(),
-            new CityRequiredSpecification()
+            new AddressSpecification(),
+            new ZipSpecification(),
+            new CitySpecification()
         };
 
             foreach (var specification in specifications)
             {
+                // Preguntamos si las especificaciones son stisfechas por el objeto instanciado por la clase actual.
                 if (!specification.IsSatisfiedBy(this))
                 {
                     result.IsValid = false;
-                    result.Errors.Add(specification.ErrorMessage);
+                    foreach (var error in specification.ErrorMessage)
+                    {
+                        result.Errors.Add(error);
+                    }
+
                 }
             }
             return result;
